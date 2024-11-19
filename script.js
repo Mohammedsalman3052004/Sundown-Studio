@@ -48,12 +48,14 @@ function homePageAnimation() {
   var tl = gsap.timeline();
   tl.from("#page1 nav", {
     y: -50,
+    delay:5,
     duration: 1.5,
     opacity: 0,
     stagger: 1,
   });
   gsap.from("#center", {
     y: 50,
+    delay:5,
     duration: 1,
     delay: 0.3,
     opacity: 0,
