@@ -266,14 +266,6 @@ nav {
     transform: translateX(-100%);
   }
 }
-@keyframes moving_animation_11 {
-  from{
-    transform: translate(100%);
-  }
-  to{
-    transform: translate(0%){
-  }
-}
 .page2-content {
   margin-top: -5vw;
   height: 100vh;
